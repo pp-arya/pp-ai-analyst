@@ -1,0 +1,10 @@
+# Gitignore for .knowledge/datasets/
+# NovaMart brain is committed (seed data for bootcamp).
+# User-created datasets and profiling results are not.
+
+# Profiling results (generated, not source-controlled)
+*/last_profile.md
+
+# User-created dataset brains (created by /connect-data)
+# Uncomment and add specific dataset names to ignore:
+# my_dataset/

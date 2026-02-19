@@ -1,0 +1,15 @@
+# data_sources.yaml -- Connection registry for registered data sources
+# Tracks HOW to connect. The data brain (WHAT it contains) lives in .knowledge/datasets/
+# The active dataset pointer is in .knowledge/active.yaml (not here).
+
+sources:
+  novamart:
+    display_name: "NovaMart E-Commerce"
+    description: "Fictional mid-stage e-commerce marketplace (50K users, 6.5M events, 13 tables)"
+    connection_type: "motherduck"
+    database: "bootcamp"
+    schema_prefix: "novamart"
+    data_dir: "data/novamart/"
+    fallback_dir: "data/novamart/"
+    fallback_available: true
+    registered_at: "2026-02-16"
