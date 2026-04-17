@@ -160,7 +160,7 @@ def lint_deck(deck_path):
 
     # --- Determine theme for class validation ---
     theme = fm.get("theme", "analytics")
-    if "dark" in str(theme):
+    if "dark" in str(theme) or str(theme).startswith("prizepicks"):
         valid_classes = VALID_CLASSES_DARK
     else:
         valid_classes = VALID_CLASSES_LIGHT

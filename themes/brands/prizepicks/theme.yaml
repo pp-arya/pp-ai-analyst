@@ -1,0 +1,66 @@
+# PrizePicks — Visual Identity (Notion style guide)
+# Inherits themes/_base.yaml; dark slides and charts are the default.
+
+theme:
+  name: "prizepicks"
+  display_name: "PrizePicks Analytics"
+  description: "Brand palette (Stankonia, ATLien, So Fresh, So Clean); dark-first decks and charts."
+
+colors:
+  primary: "#8000FF"          # Stankonia — key series, CTAs
+  secondary: "#6EFF00"          # ATLien — growth / positive emphasis
+  accent: "#FB3640"             # Roses — alerts, negative
+  neutral: "#8B8598"            # Muted lines / comparison on dark
+  background: "#050614"         # So Fresh — figure + slide base (dark default)
+  text: "#FBF9FF"               # So Clean — body on dark
+  text_light: "#C8B8E8"         # Secondary labels on dark
+  categorical:
+    - "#8000FF"   # Stankonia
+    - "#6EFF00"   # ATLien
+    - "#00BFFF"   # Ms. Jackson
+    - "#FB3640"   # Roses
+    - "#FF3EA5"   # Millenium Magenta
+    - "#FE5000"   # Elevators Glow
+    - "#FFF600"   # SpottieOttie
+    - "#B366FF"   # Stankonia light (distinct step for 8th series)
+  sequential:
+    low: "#1A1033"
+    mid: "#8000FF"
+    high: "#FBF9FF"
+  diverging:
+    negative: "#FB3640"
+    neutral: "#252845"
+    positive: "#6EFF00"
+  highlight:
+    focus: "#8000FF"
+    comparison: "#4A4F6A"
+    alert: "#FB3640"
+
+typography:
+  font_family: "'Aktiv Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  heading_font: "'Aktiv Grotesk', 'Aktiv Grotesk Extended', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+
+charts:
+  figure:
+    facecolor: "#050614"
+  axes:
+    facecolor: "#050614"
+    spine_color: "#4A4F6A"
+  bar:
+    default_color: "#4A4F6A"
+    highlight_color: "#8000FF"
+  line:
+    default_color: "#4A4F6A"
+    highlight_color: "#8000FF"
+  annotations:
+    color: "#FBF9FF"
+    arrow_color: "#C8B8E8"
+
+presentations:
+  slide_background: "#050614"
+  slide_text: "#FBF9FF"
+  slide_accent: "#8000FF"
+  dark:
+    slide_background: "#050614"
+    slide_text: "#FBF9FF"
+    slide_accent: "#B366FF"

@@ -19,6 +19,8 @@ THEME_CSS = {
     "analytics": "analytics-light.css",
     "analytics-light": "analytics-light.css",
     "analytics-dark": "analytics-dark.css",
+    "prizepicks": "prizepicks.css",
+    "prizepicks-dark": "prizepicks.css",
 }
 
 
